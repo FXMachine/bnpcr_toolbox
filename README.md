@@ -15,26 +15,23 @@ Please cite this paper in any publications using the HDP-AR-HMM or HDP-SLDS pack
 
 Summary of BNP Covariance Regression package contents:
 
-BNP_covreg.m:
-  Main inference script for running the sampler without missing data
-  or imputing the missing values.
-BNP_covreg_varinds.m:
-  Main inference script for running the sampler with analytic marginalization
-  of missing values.
-runstuff_BNPcovreg.m and runstuff_var_inds_flu.m: see below for explanation
++ `BNP_covreg.m`: Main inference script for running the sampler without missing
+data or imputing the missing values.
++ `BNP_covreg_varinds.m`: Main inference script for running the sampler with
+analytic marginalization of missing values.
++ `runstuff_BNPcovreg.m` and `runstuff_var_inds_flu.m`: See below for explanation
 
-/utilities:
-  Script SIMplots.m contains an example of how to process and visualize
-  the results from the stored samples.
++ `/utilities`: Script `SIMplots.m` contains an example of how to process and
+visualize the results from the stored samples.
 
 ## Setup and Usage Examples
 
 For an example of running the sampler without missing data or imputing
-the missing values, see runstuff_BNPcovreg.m.  This script examines a
+the missing values, see `runstuff_BNPcovreg.m`.  This script examines a
 synthetic data example.
 
 For an example of running the sampler with analytic marginalization of
-missing values, see runstuff_varinds_flu.m.  This script examines the
+missing values, see `runstuff_varinds_flu.m`.  This script examines the
 Google Flu Trends dataset.
 
 ## Copyright & License
