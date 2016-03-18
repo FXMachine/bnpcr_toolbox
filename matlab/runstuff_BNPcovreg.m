@@ -1,7 +1,7 @@
 %% SCRIPT FOR RUNNING BASIC SAMPLER ON SIMULATED DATA EXAMPLE %%
 
 % Load simulated data:
-load simData.mat
+load simData
 
 % y is a p x N matrix specifying the N observations of the p-dimensional data
 [p N] = size(y);
